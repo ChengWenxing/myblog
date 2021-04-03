@@ -22,10 +22,4 @@ git commit -m 'deploy'
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 git push -f git@github.com:ChengWenxing/myblog.git master:gh-pages
 
-git remote add origin git@github.com:ChengWenxing/myblog.git
-
-git pull --rebase origin gh-pages
-
-git push origin gh-pages
-
 cd -
